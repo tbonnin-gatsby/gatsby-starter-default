@@ -36,7 +36,7 @@ module.exports = {
       options: {
 	headers: {
 		"/*": [
-			"X-Frame-Options: DENY"
+			"Set-Cookie: HttpOnly;Secure;SameSite=Strict"
 		]
 	},
         allPageHeaders: [],
