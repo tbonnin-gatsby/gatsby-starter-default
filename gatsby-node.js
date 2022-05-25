@@ -5,6 +5,6 @@ exports.createPages = async ({ actions }) => {
     component: require.resolve("./src/templates/using-dsg.js"),
     context: {},
     defer: true,
-    +++
+    ++++
   })
 }
