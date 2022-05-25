@@ -36,7 +36,7 @@ module.exports = {
       options: {
 	headers: {
 		"/*": [
-			"Set-Cookie: HttpOnly;Secure;SameSite=Strict"
+			"Set-Cookie: mycookie=abcd;HttpOnly;Secure;SameSite=Strict"
 		]
 	},
         allPageHeaders: [],
