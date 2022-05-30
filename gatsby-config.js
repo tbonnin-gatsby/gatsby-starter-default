@@ -34,7 +34,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gatsby-cloud`,
       options: {
-	headers: {},
+	headers: {
+		"/*": [
+			"Set-Cookie: mycookie=abcd;HttpOnly;Secure;SameSite=Strict"
+		]
+	},
         allPageHeaders: [],
         mergeSecurityHeaders: true,
         mergeLinkHeaders: true,
